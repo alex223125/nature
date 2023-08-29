@@ -2,7 +2,7 @@
 
 module Api
   module V1
-    class OccurrencesController < ApplicationController
+    class OccurrencesController < ApiController
       before_action :set_occurrence, only: %i[presence]
 
       def presence
