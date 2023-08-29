@@ -4,7 +4,7 @@ require:
   - rubocop-rspec
 
 AllCops:
-  TargetRubyVersion: 2.7.2
+  TargetRubyVersion: 2.7.1
   TargetRailsVersion: 7.0
   Include:
     -  'app/**/*'
@@ -12,7 +12,6 @@ AllCops:
     - 'Gemfile'
     - 'Guardfile'
     - 'Rakefile'
-    - 'spec/**/*'
   Exclude:
     - 'app/views/**/*'
     - 'app/assets/**/*'
@@ -27,6 +26,7 @@ AllCops:
     - 'vendor/**/*'
     - 'tmp/**/*'
     - '.git/**/*'
+    - 'spec/**/*'
 
 Documentation:
   Enabled: false
